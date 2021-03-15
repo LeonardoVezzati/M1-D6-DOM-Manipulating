@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+</head>
+<body>
+  <h1 id="Title">Giotto</h1>
+  <table>
+    <tr>
+      <th>
+        <div>
+          <img class="VisibleImage" href="https://cdn.shopify.com/s/files/1/0333/0785/2932/files/Office_Chairs_No_Armrest_3a826b7d-7c61-4e45-9cee-4787d0afa366.png?v=1615196079" alt="Office Chair">
+          <h2>Office Chair</h2>
+          <p>Super comfortable office chair, perfect to work from home</p>
+          <p>249$</p>
+          <a class="Amazon-Link" href="https://www.amazon.fr/SNOVIAY-ergonomique-accoudoirs-rembourr%C3%A9s-appuie-t%C3%AAte/dp/B088GY21QJ/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=office+chair&qid=1615818836&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyUUZJVDRBSkRPTUc3JmVuY3J5cHRlZElkPUEwODI4NTk2MVM2QURJNDdVVktRTCZlbmNyeXB0ZWRBZElkPUEwODQ1NjM1MUdRRlJIMUlZQkpDVSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">Go to product</a>
+        </div>
+      </th>
+      <th>
+        <div>
+          <img class="VisibleImage" href="https://cdn.shopify.com/s/files/1/0333/0785/2932/files/Desks.png?v=1615195752" alt="Adjustable Height Desk">
+          <h2>Adjustable Height Desk</h2>
+          <p>Super comfortable office chair, perfect to work from home</p>
+          <p>499$</p>
+          <a class="Amazon-Link" href="https://www.amazon.fr/Fitnest-Sierra-Automatic-adjustable-ESSENTIAL/dp/B08M6CSF5Y/ref=sr_1_7?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=adjustable+desk&qid=1615818925&sr=8-7">Go to product</a>
+        </div>
+      </th>
+      <th>     
+        <div>
+          <img class="VisibleImage" href="https://cdn.shopify.com/s/files/1/0333/0785/2932/files/Bookcases.png?v=1615199968" alt="Bookshelf">
+          <h2>Office Bookshelf</h2>
+          <p>Super practicle office bookshelf</p>
+          <p>99$</p>
+          <a class="Amazon-Link" href="https://www.amazon.fr/Biblioth%C3%A8que-Bookshelf-Affichage-Organisateur-autoportante/dp/B08XNB6BL8/ref=sr_1_5?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=bookshelf&qid=1615818954&sr=8-5">Go to product</a>
+        </div>
+      </th>
+      <th>     
+        <div>
+          <img class="VisibleImage" href="https://cdn.shopify.com/s/files/1/0333/0785/2932/files/Office_Pedestals.png?v=1615199735" alt="Office Pedestal">
+          <h2>Office Pedestal</h2>
+          <p>Super practicle office pedestal</p>
+          <p>89$</p>
+          <a class="Amazon-Link" href="https://www.amazon.fr/dp/B07PQ7TTK4/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=OjRQpRMZA1soPOGJgNw7ng&hsa_cr_id=3218047870502&pd_rd_plhdr=t&pd_rd_r=d2ca78c6-a720-4525-b1c1-bc1e1ac74537&pd_rd_w=ywLQr&pd_rd_wg=yhG8x&ref_=sbx_be_s_sparkle_mcd_asin_0_img">Go to product</a>
+        </div>
+      </th>
+      <th>
+        <div>
+          <img class="VisibleImage" href="https://cdn.shopify.com/s/files/1/0333/0785/2932/files/Shelves.png?v=1615739209" alt="Shelf">
+          <h2>Shelf</h2>
+          <p>Super practicle office shelf</p>
+          <p>49$</p>
+          <a class="Amazon-Link" href="https://www.amazon.fr/AGSIVO-%C3%89tag%C3%A8res-murales-%C3%89tag%C3%A8re-Chambre/dp/B07Y32RTQR/ref=sr_1_10?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=%C3%A9tag%C3%A8re&qid=1615819200&s=kitchen&sr=1-10">Go to product</a>
+        </div>
+      </th>
+    </tr>
+  </table>
+
+  <form id="new-user">
+    <input type="text" name="message" placeholder="Message" />
+  </form>
+
+  <footer>
+    <h2>@Giotto</h2>
+    <p id="footer-address">Rue MiddelBourg 70, 1170 Watermael-Boitsfort, Bruxelles, Belgium</p>
+  </footer>
+</body>
+</html>
+
+<style>
+  VisibleImage {
+    display:none
+  }
+</style>
+
+<script>
+  const changeH1 = () =>{
+    let newH1 = document.getElementById('Title')
+    newH1.innerText = "New Title"
+  }
+
+  const changeBackground = () =>{
+    let newBackground = document.getElementsByTagName('body');
+    newBackground.style.background-color = red;
+  }
+
+  const changeFooterAddress = () =>{
+    let newAddress = document.getElementsById('footer-address');
+    newAddress.innerText = "Parvis Alan Turing 5, 75013, Paris" ;
+  }
+
+  const addCSSClass = () =>{
+    let amazonLink = document.getElementsByClassName('Amazon-Link');
+    amazonLink.classList.add("new-class");
+  }
+</script>
+/* You have been assigned to the creation of a Smartphone Shop Website. The homepage you're about to write is just a showcase of the products of the shop with some extra information. No shopping cart / checkout features are required.
+
+Complete exercises from 1 to 6 with just plain HTML. */
+
+// EX1.: Add an h1 tag with the name of your shop
+// EX2.: Add a TABLE with the top 5 products of your shop
+// EX3.: Insert for each product an image, a title, a description and a price
+// EX4.: Add links to existing Amazon products for each item in the table
+// EX5.: Add a footer with the address and the name of your shop
+// EX6.: Add a message board where the user can type a message in it (no real posting/saving features required!)
+
+// EXTRA (use JavaScript code here)
+
+// EX7.: Write a function to change the h1 text
+// EX8.: Write a function to change the page background color
+// EX9.: Write a function to change the footer address with a fake one
+// EX10.: Write a function to add a CSS class to every Amazon link
+// EX11: Write a function to toggle a CSS class for all the images in the table; that class should set the visibility of the image
+// EX12: Write a function to color the price of each product in a different one every time it's invoked 
